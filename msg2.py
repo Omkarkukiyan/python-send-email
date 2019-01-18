@@ -7,10 +7,10 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-subject = "An email send from Sarah"
-body = "This is an email with an attachment from Sarah"
-sender_email = "mathewsarah45@gmail.com"
-receiver_email = "mathewsarah45@gmail.com"
+subject = "An email send from sender_email"
+body = "This is an email with an attachment from sender"
+sender_email = "my_email@gmail.com"
+receiver_email = "your_email@gmail.com"
 password = input("Type your password and press enter:")
 
 message = MIMEMultipart()
